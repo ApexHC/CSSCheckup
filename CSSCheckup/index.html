@@ -5,12 +5,215 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./main.css">
     <title>CSS Checkup</title>
+    <!--I came across information about the style tag online and wanted to incorporate it here.-->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+    <link rel="stylesheet" href="./main.css">
 </head>
 
 <body>
 
+
+    <header>
+        <div class="navigation-bar">
+            <img src="./assets/1150AcademyLogo.png">
+            <nav class="nav-logo ">
+                <ul class="navButtons">
+                    <li class="current ">
+                        <a href="# ">Home</a>
+                    </li>
+                    <li>
+                        <a href="# ">The Last 2 Weeks</a>
+                    </li>
+                    <li>
+                        <a href="# ">Contact</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+    </header>
+    <div class="elo">
+        <h4>Please enjoy some Electric Light Orchestra while you review this page.</h4>
+        <audio controls>
+        
+        <source src="./assets/Electric Light Orchestra - Mr. Blue Sky.mp3" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
+
+    </div>
+
+
+    <div class="wrapper">
+
+        <h1>Eleven Fifty Academy-<span>CSS Checkup</span>
+        </h1>
+        <hr>
+
+        <h2>The First Three Weeks (Learning HTML and CSS)</h2>
+
+        <p class="paraText">
+            My initial impression shortly after starting the Coding Foundations course at Eleven Fifty Academy was very positive. I felt that the instructors were all very professional, knowledgeable, and understood many of the students initial frustrations with
+            new learning. I believe that professional training is a catalyst for effective leadership, and, when combined with many of the teaching methods used by EFA staff, sets the stage for active dialogue, learner engagement, and helps foster a culture
+            of collective accountability for students, which has the potential to pay dividends as the new learners enter the programming workplace.
+        </p>
+
+
+        <p class="paraText">From my perspective, HTML was not entirely new. I was very familiar with the basic concept wherein provides the basic framework for web pages, while CSS and JavaScript added the style and useability. Yet, it is some of the most basic HTML concepts
+            which had the most impact on me. What I lacked was the general understanding of how all fit together. Many of the elements listed below were (are) incredibly important to the creation of a fluid webpage.</p>
+
+        <p class="paraText">The two lists below include the HTML and CSS content covered in the first three weeks of the program.</p>
+
+
+        <!--My challenge here is to create two columns for me to list the HTML and CSS topics covered in the first three weeks-->
+
+        <!--I N S T R U C T O R S  N O T E
+        
+        Now, it might not be too terribly difficult for an EFA instructor to create side-by-side unordered lists, but I really struggled with it.  I found a lot of information online about it - which didn't help much.  So - I took my time and learned how to do this.  I am pretty pleased with how it came out.-->
+
+        <div class="two-columns">
+            <div class="row">
+                <div class="column" style="background-color:#aaa;">
+                    <h2>HTML5 Basics</h2>
+                    <ul>
+                        <li>Basic HTML Setup</li>
+                        <li>Basic HTML Tags</li>
+                        <li>H and P tags</li>
+                        <li>Lists</li>
+                        <li>Links</li>
+                        <li>Images</li>
+                        <li>Tables</li>
+                        <li>Divs</li>
+                        <li>Inputs</li>
+                        <li>Forms</li>
+                        <li>Sections</li>
+                        <li>Articles and Headers</li>
+                        <li>Footers</li>
+                        <li>Navigation (Navs)</li>
+                    </ul>
+                </div>
+                <div class="column" style="background-color: #bbb;">
+                    <h2>CSS Basics</h2>
+                    <ul>
+                        <li>Introduction</li>
+                        <li>Overview</li>
+                        <li>Classes</li>
+                        <li>IDs</li>
+                        <li>Margins & Padding</li>
+                        <li>Borders</li>
+                        <li>Width and Height</li>
+                        <li>Fonts</li>
+                        <li>Backgrounds</li>
+                        <li>Positions</li>
+                        <li>CSS Setup</li>
+                        <li>Styling the Header</li>
+                        <li>Styling the Form Container</li>
+                        <li>Styling form fields</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+
+            <div class="cta">
+                <H2 id="bootcamp">Bootcamp Virtual <span>Tour</span></H2>
+                <p class="paraText">As with any form of marketing, user reviews are one of the best ways to communicate value to prospective consumers. Below is a video that does just that. Entitled "Bootcamp Advice from Eleven Fifty Graduates", the two minute video lays
+                    it on the line. Check it out:
+                </p>
+                <div class="videoEmbed">
+                    <a href="https://youtu.be/UfQXfxpmtas">VIEW ON YOUTUBE</a>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UfQXfxpmtas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <br><br>
+                <hr>
+            </div>
+
+            <div class="toolsToSucceed">
+                <h2>Coding - <span>Competent</span> Training Methods</span>
+                </h2>
+
+                <p class="paraText">It is a known fact that adults learn and are motivated differently than their adolescent counterparts. Academic studies have proven (time and time again) that a poor training process will produce poor learning outcomes. And as professional
+                    trainers of adults, it is Eleven Fifty's job to create value for its students. This means that they have to be good at what they do. Mastering training delivery is the key.</p>
+
+                <p class="paraText">The importance of adult learning cannot be overestimated. A literate, educated, inquisitive, problem-solving workforce is essential for any company who wishes to maintain a leadership role in their respective marketplaces. The filed of
+                    adult learning encompasses the theory, research, concepts, assumptions, and guiding principles of educational experiences for adult learners. And Eleven Fifty Academy has found a way to deliver.</p>
+
+                <p class="paraText">It is generally held that anyone can master most any task at a high level, if provided with high-quality instruction and time. The true difference between instructing and training is the production of an outcome. You can instruct someone
+                    to do something, but if it wasn't understood or well received, the trainee is likely not going to produce the outcome you were originally after. However, by training someone, you are demonstrating, and expect the trainee, in turn,
+                    to demonstrate the objectives. Every learning session is conducted by an expert with years of real-world experience. Learners follow the instruction in real time and reproduce the code blocks that are being taught, further reinforcing
+                    their learning experience.</p>
+
+                <p class="paraText">Acquiring knowledge is not sufficient or effective for most learning. Learners need to make sense of what they learned nd know when, where, and how to use the knowledge. <span id="italic">Understanding</span> the information is, therfore,
+                    fundamental to effective learning.</p>
+
+                <p class="paraText"><span id="emphasis">Doing --</span> Learning is often for the practical purpose of developing competence in an activity. In most situations, learning involves doing the activities. Improvement in performance requires practice over time.
+                    In real-world situations, such as learning a coding language, involves all three of these learning components (knowledge, thinking, and doing). What's important here to understand is that all three of these components do not occur
+                    in a separate process, but are dynamic and mutually support the overall learning process. For example, as we acquire knowledge, think better about what we are doing, and practice a task, we tend to become more competent in that activity.</p>
+
+                <p class="paraText">The trainers at Eleven Fifty Academy allow students to put the new skills they are learining to work. In fact - it is absolutely imperative that they do - before they forget it. There are many theories for why people forget things. The
+                    most improtant for coding instructors is that over <span id="emphasis"> 60% of factual information will be lost within 48 hours if there is no subsequent rehearsal or review of what was learned.</span> Skills and understanding are
+                    much more resistant to forgetting. For example, if you consider the adage about riding a bike - once you learn how to ride a bike - you never forget. <span id="emphasis">The more information is reviewed in the first day or so after it is learned, the more likely the chance of it becoming established in long term memory.</span></p>
+            </div>
+        </div>
+
+        <div class="theRightTools">
+            <h2>Learn the Right <span>Stuff</span></h2>
+
+            <p class="paraText">Learning to code is a challenge. Eleven Fifty Academy has taken a log of guess work out of the equation for you by pairing coding platforms, software, and applications that work together perfectly. Students are taught from day one how to use
+                utilize industry standard software packages such as <span id="emphasis">Visual Studio Code,</span> including quite a few extensions (applications) that make using VSC a breeze. Students also download and install <span id="emphasis"> Microsoft .NET, Microsoft PowerShell</span>,
+                and a host of other programs, which the students get to keep after their experience at Eleven Fifty Academy.</p>
+        </div>
+
+        <div class="graphic">
+            <div id="logo">
+
+                <h3>Here are just a few of the applications taught in Coding Foundations</h4>
+                    <img src="./assets/1150AcademyLogo.png" alt="Eleven Fifty Academy Logo">
+                    <img src="./assets/vsc.png" alt="Visual Studio Code Logo">
+                    <img src="./assets/MSDotnet.jfif" alt="Microsoft .NET logo">
+                    <img src="./assets/gitlogo.png" alt="Git logo">
+                    <img src="./assets/github.png" alt="Github logo">
+                    <img src="./assets/csharp.jfif" alt="C Sharp logo">
+                    <img src="./assets/slack2.png" alt="Slack logo">
+                    <img src="./assets/node2.png" alt="Node.js Logo">
+                    <img src="./assets/liveserver.png" alt="Live Server Logo">
+            </div>
+
+        </div>
+        <div class="container">
+
+            <h2>Are you ready to <span>code</span>? Talk to us...</h2>
+            <form>
+                <div>
+                    <input type="email" placeholder="Email" name="email" required />
+                </div>
+                <div>
+                    <input type="text" placeholder="Phone Number" name="phoneNumber" required />
+                </div>
+                <div>
+                    <textarea name="Your Message" id="yourMsg" cols="60" rows="10" placeholder="Your message here" name="yourMessage" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+
+            <br><br>
+            <hr>
+
+
+
+
+
+
+
+        </div>
 </body>
 
 </html>
